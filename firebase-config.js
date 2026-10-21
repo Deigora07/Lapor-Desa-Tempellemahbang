@@ -1,8 +1,3 @@
-// 1) Buka Firebase Console > Project settings > Your apps > SDK setup and configuration.
-// 2) Salin konfigurasi aplikasi web Anda ke objek firebaseConfig di bawah ini.
-// Jangan pernah menaruh Service Account/private key di frontend.
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-
 import { initializeApp } from "https://www.gstatic.com/firebasejs/12.19.0/firebase-app.js";
 import { getAuth } from "https://www.gstatic.com/firebasejs/12.19.0/firebase-auth.js";
 import { getFirestore } from "https://www.gstatic.com/firebasejs/12.19.0/firebase-firestore.js";
